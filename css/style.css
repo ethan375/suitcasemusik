@@ -1,0 +1,74 @@
+.left{
+ height: 100vh;
+ width: 45%;
+ background-image: url('../images/suitcasemusik.JPG');
+ float: left;
+ text-align: center;
+}
+
+.right{
+  height: 100vh;
+  width: 45%;
+  /*background-color: #f70978;*/
+  float: right;
+  text-align: center;
+  background-image: url('../images/Logosmall.JPG');
+}
+
+.left:hover {
+  width: 50%;
+}
+
+.right:hover {
+  width: 50%;
+}
+
+.zeroequals {
+  text-align: center;
+  text-decoration: underline;
+}
+
+
+p {
+ text-indent: 30px;
+}
+
+body{
+  font-family: 'Indie Flower', cursive;
+  font-size: 160%;
+}
+
+li{
+  margin-top: 100px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} 
+
+.names {
+  float: center;
+}
+
+#suitcasemusik {
+  background-color:  #f77411;
+}
+
+#testimonials {
+  background-color: #fc05d7;
+}
+
+#contact {
+  background-color: #fc05d7;
+}
+
+.zero {
+  background-color: #fc05d7;
+}
+
+#musik {
+  text-align: center;
+  text-decoration: underline;
+}
