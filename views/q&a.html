@@ -1,3 +1,10 @@
 <div>
-  
+  <dl>
+    <dt ng-repeat="question in com.questions">
+      <span>{{question.body}}</span>
+    </dt>
+    <dd ng-repeat="answer in com.answers">
+      <span>{{answer.body}}</span>
+    </dd>
+  </dl>
 </div>
